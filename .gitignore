@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+venv/
+
+# Models
+*.bin
+*.pt
+*.onnx
+*.safetensors
+
+# Data
+*.db
+data/
+conversations/
+
+# IDE
+.vscode/
+.idea/
