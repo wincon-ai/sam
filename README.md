@@ -20,7 +20,7 @@ Stack: Python, Anthropic API (Claude), Neo4j, Whisper, ElevenLabs, ChromaDB, YOL
 
 Status: the core AI mind (Claude API, voice, memory, retrieval, interrupt handling) is close to done. Current work is system prompt refinement, with physical embodiment up next.
 
-Repo: wincon-ai
+Repo: github.com/wincon-ai/sam
 
 ## Background
 
