@@ -29,14 +29,14 @@ MS in AI Engineering, Quantic School of Business and Technology (First Cohort, F
 
 ## Tech stack
 
-**AI/ML**: Python, Anthropic API (Claude), Ollama, RAG (ChromaDB), embeddings, planned fine-tuning of a Llama 3.1 8B base model
-**Perception**: OpenCV, YOLOv11, MediaPipe, DeepFace, librosa
-**Data**: Neo4j, graph databases
-**Voice**: Whisper (speech-to-text), ElevenLabs (text-to-speech)
-**Hardware**: NVIDIA Jetson Orin Nano, Raspberry Pi 5, Arduino, sensor interfacing
-**Tools**: Git, Redis, AI-assisted development, VM administration
-**Currently learning**: ROS 2, LiDAR/SLAM, depth sensing
-
+- **AI/ML**: Python, Anthropic API (Claude), Ollama, RAG (ChromaDB), embeddings, planned fine-tuning of a Llama 3.1 8B base model
+- **Perception**: OpenCV, YOLOv11, MediaPipe, DeepFace, librosa
+- **Data**: Neo4j, graph databases
+- **Voice**: Whisper (speech-to-text), ElevenLabs (text-to-speech)
+- **Hardware**: NVIDIA Jetson Orin Nano, Raspberry Pi 5, Arduino, sensor interfacing
+- **Tools**: Git, Redis, AI-assisted development, VM administration
+- **Currently learning**: ROS 2, LiDAR/SLAM, depth sensing
+  
 ## Contact
 
 Email: win_con@icloud.com
