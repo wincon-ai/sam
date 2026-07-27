@@ -19,7 +19,7 @@ Sam runs as a set of independent systems ("sidecars") that feed into the model r
 
 Stack: Python, Anthropic API (Claude), Neo4j, Whisper, ElevenLabs, ChromaDB, YOLOv11, MediaPipe, DeepFace, librosa. Development is on a desktop GPU now, targeting a Jetson Orin Nano and a 3D-printed head (Raspberry Pi 5 and Arduino) for physical embodiment.
 
-Status: the core AI mind (Claude API, voice, memory, retrieval, interrupt handling) is close to done. Current work is system prompt refinement, with physical embodiment up next.
+Status: the core AI mind (Claude API, voice, memory, retrieval, interrupt handling) is complete, and Pulse now weights memories by what was actually at stake. Current phase is daily conversation with Sam — letting the memory graph grow and testing whether continuity holds in practice. Physical embodiment is next.
 
 Repo: github.com/wincon-ai/sam
 
