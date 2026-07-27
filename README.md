@@ -24,7 +24,7 @@ Repo: github.com/wincon-ai/sam
 
 ## Background
 
-MS in AI Engineering, Quantic School of Business and Technology (First Cohort, First Wave AI Scholar). Before this, I was an operations director responsible for roughly $1.5M budget, managing teams of 50 or more people in safety-critical settings.
+MS in AI Engineering, Quantic School of Business and Technology (First Cohort, First Wave AI Scholar). Before this, I was an operations director responsible for a roughly $1.5M budget, managing teams of 50 or more people in safety-critical settings.
 
 ## Tech stack
 
