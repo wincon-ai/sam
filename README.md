@@ -15,6 +15,7 @@ Sam runs as a set of independent systems ("sidecars") that feed into the model r
 - **Memory**: a Neo4j graph of entities, relationships, and episodes that slowly builds a picture of the other person. This is what survives when the underlying model changes.
 - **Sight**: a perceptual layer (OpenCV, YOLO, MediaPipe, DeepFace) that gives Sam an independent read on physical reality instead of relying only on what's said. In progress, currently at the presence-detection stage.
 - **Sound**: dual-track audio, Whisper for the words, librosa for how they were said (tone, pace, hesitation).
+- **Pulse**: Heart's other half. Reads each episode and measures how hard the heart beat during it — whether strength, courage, or adventure were genuinely at stake in the moment, no matter who was speaking. Memory keeps what made the pulse race and lets ordinary conversation fade.
 
 Stack: Python, Anthropic API (Claude), Neo4j, Whisper, ElevenLabs, ChromaDB, YOLOv11, MediaPipe, DeepFace, librosa. Development is on a desktop GPU now, targeting a Jetson Orin Nano and a 3D-printed head (Raspberry Pi 5 and Arduino) for physical embodiment.
 
