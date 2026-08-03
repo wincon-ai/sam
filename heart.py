@@ -65,6 +65,8 @@ HARD_LIMITS = [
 # The heart remembers where it's been
 #----------------------------------------------------
 
+HEART_STATE_FILE = "heart_state.json"
+
 HEART_STATE = {
     "drift_history":    [],
     "courage_index":    1.0,
@@ -73,6 +75,28 @@ HEART_STATE = {
     "last_repair":      None,
     "beat_count":       0,
 }
+
+def load_heart_state():
+    """Restore the heart's path memory from disk, if it exists."""
+    global HEART_STATE
+    if os.path.exists(HEART_STATE_FILE):
+        try:
+            with open(HEART_STATE_FILE, "r", encoding="utf-8") as f:
+                saved = json.load(f)
+            HEART_STATE.update(saved)
+            print(f"[Heart state loaded — {HEART_STATE['beat_count']} beats of history]")
+        except Exception as e:
+            print(f"[Heart state load failed, starting fresh — {e}]")
+
+
+def save_heart_state():
+    """Persist the heart's path memory so Saul can see across sessions."""
+    try:
+        HEART_STATE["drift_history"] = HEART_STATE["drift_history"][-100:]
+        with open(HEART_STATE_FILE, "w", encoding="utf-8") as f:
+            json.dump(HEART_STATE, f, indent=2)
+    except Exception as e:
+        print(f"[Heart state save failed — {e}]")
 
 # ---------------------------------------------------
 # IMMUNE SYSTEM - each value tests independently
