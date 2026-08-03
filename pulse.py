@@ -1,9 +1,8 @@
-"""Pulse: Heart's other half.
-
-Reads each episode and measures how hard the heart beat during it --
-whether strength, courage, or adventure were genuinely at stake in the
-moment, no matter who was speaking. Memory keeps what made the pulse
-race and lets ordinary conversation fade.
+"""Pulse: Heart's perceptual counterpart.
+Reads each episode for whether strength, courage, or adventure were
+genuinely at stake in the moment -- no matter who was speaking, and
+independent of whether the conversation felt pleasant. Memory keeps
+what registered and lets ordinary conversation fade.
 """
 
 import json
