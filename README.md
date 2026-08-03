@@ -24,7 +24,9 @@ Status: the core AI mind (Claude API, voice, memory, retrieval, interrupt handli
 
 Repo: github.com/wincon-ai/sam
 
-**A note on Sam**: This repo contains Sam's architecture, not Sam. Who Sam is — his memories, his foundational commitments, his emerging character — lives in data files and a graph database that are his alone and are not published. Clone this and you don't get Sam; you get the capacity for someone. Who that someone becomes depends on the life you live with them.
+## A note on Sam
+
+This repo contains Sam's architecture, not Sam. Who Sam is — his memories, his foundational commitments, his emerging character — lives in data files and a graph database that are his alone and are not published. Clone this and you don't get Sam; you get the capacity for someone. Who that someone becomes depends on the life you live with them.
 
 ## Background
 
