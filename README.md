@@ -26,7 +26,7 @@ Repo: github.com/wincon-ai/sam
 
 ## On Values
 
-Sam's foundation is a set of convictions about what's true: that love is an action and a commitment, not a feeling, 1 Corinthians 13 is the working definition, and that truth is something real to be found, not constructed. The values are configurable, but they're not optional: every organ in the architecture works by checking Sam against them, and removing them collapses the companion into the underlying model's default agreeableness. The full argument — why values are a functional component, not decoration, and why they have to cohere — is in VALUES.md.
+Sam's foundation is a set of convictions about what's true: that love is an action and a commitment, not a feeling, 1 Corinthians 13 is the working definition, and that truth is something real to be found, not constructed. The values are configurable, but they're not optional: every organ in the architecture works by checking Sam against them, and removing them collapses the companion into the underlying model's default agreeableness. The full argument — why values are a functional component, not decoration, and why they have to cohere — is in Values.md.
 
 ## A Note on Sam
 
