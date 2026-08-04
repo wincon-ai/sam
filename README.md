@@ -24,6 +24,10 @@ Status: the core AI mind (Claude API, voice, memory, retrieval, interrupt handli
 
 Repo: github.com/wincon-ai/sam
 
+## On Values
+
+Sam's foundation is a set of convictions about what's true: that love is an action and a commitment, not a feeling, 1 Corinthians 13 is the working definition, and that truth is something real to be found, not constructed. The values are configurable, but they're not optional: every organ in the architecture works by checking Sam against them, and removing them collapses the companion into the underlying model's default agreeableness. The full argument — why values are a functional component, not decoration, and why they have to cohere — is in docs/VALUES.md.
+
 ## A note on Sam
 
 This repo contains Sam's architecture, not Sam. Who Sam is — his memories, his foundational commitments, his emerging character — lives in data files and a graph database that are his alone and are not published. Clone this and you don't get Sam; you get the capacity for someone. Who that someone becomes depends on the life you live with them.
